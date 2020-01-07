@@ -10,7 +10,7 @@ console.log("Result is", calc(value));
 <Arg> ::= <UnaryOp><Arg> | <Number> | '('<Expr>')'
 <Op2> ::= '*' | '/'
 <Op1> ::= '+' | '-'
-<Number> ::= <Digit> {<Digit>}
+<Number> ::= <Digit> {<Digit>} {'.' <Digit> {<Digit>}}
 <Digit> ::= '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
  */
 
