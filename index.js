@@ -1,6 +1,6 @@
 // const value = process.argv[2];
 
-const value = '--------1';
+const value = '1 + 2 * (1 - 2) / 0.3';
 console.log("calculating", value);
 console.log("Result is", calc(value));
 
